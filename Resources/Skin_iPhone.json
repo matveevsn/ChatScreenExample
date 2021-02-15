@@ -1,0 +1,166 @@
+{
+    "fonts": {
+        "header1": {
+            "font-family": "SFProDisplay-Semibold",
+            "font-size": 24,
+            "line-height-multiple": 1.12
+        },
+        "header2": {
+            "font-family": "SFProDisplay-Semibold",
+            "font-size": 20
+        },
+        "header2Reg": {
+            "font-family": "SFProDisplay-Regular",
+            "font-size": 20,
+            "line-height-multiple": 1.05
+        },
+        "header3": {
+            "font-family": "SFProDisplay-Semibold",
+            "font-size": 18
+        },
+        "header4": {
+            "font-family": "SFProDisplay-Semibold",
+            "font-size": 16
+        },
+        "header4Reg": {
+            "font-family": "SFProDisplay-Regular",
+            "font-size": 16,
+            "line-height-multiple": 1.26
+        },
+        "header5": {
+            "font-family": "SFProDisplay-Semibold",
+            "font-size": 12
+        },
+
+        "paragraph1": {
+            "font-family": "SFProText-Semibold",
+            "font-size": 16,
+            "line-height-multiple": 1.26
+        },
+        "paragraph1Reg": {
+            "font-family": "SFProText-Regular",
+            "font-size": 16,
+            "line-height-multiple": 1.26
+        },
+        "paragraph1Chat": {
+            "font-family": "SFProText-Regular",
+            "font-size": 16
+        },
+        "paragraph2": {
+            "font-family": "SFProText-Medium",
+            "font-size": 12
+        },
+        "paragraph2Reg": {
+            "font-family": "SFProText-Regular",
+            "font-size": 12
+        },
+
+        "paragraph3": {
+            "font-family": "SFProText-Medium",
+            "font-size": 10
+        },
+        "paragraph3Reg": {
+            "font-family": "SFProText-Regular",
+            "font-size": 10,
+            "line-height-multiple": 1.26
+        }
+    },
+    "colors": {
+        "primary": {
+            "light": "#0075FF",
+            "dark": "#63ABFF"
+        },
+        "background": {
+            "light": "#EEEEEE",
+            "dark": "#121212"
+        },
+        "backgroundSecondary": {
+            "light": "#FFFFFF",
+            "dark": "#222222"
+        },
+        "error": {
+            "light": "#FF6464",
+            "dark": "#E05F77"
+        },
+        "card": {
+            "light": "#FFFFFF",
+            "dark": "#303030"
+        },
+        "font": {
+            "light": "#000000",
+            "dark": "#FFFFFF"
+        },
+        "informationFont": {
+            "light": "#C4C4C4",
+            "dark": "#C4C4C4"
+        },
+        "secondaryFont": {
+            "light": "#777777",
+            "dark": "#777777"
+        },
+        "informer": {
+            "light": "#404040",
+            "dark": "#404040"
+        },
+        "informerHover": {
+            "light": "#505050",
+            "dark": "#505050"
+        },
+        "onSurfaceFont": {
+            "light": "#FFFFFF",
+            "dark": "#FFFFFF"
+        },
+        "emotions": {
+            "light": "#FFFFFF",
+            "dark": "#777777"
+        },
+        "otherBackground": {
+            "light": "#FFFFFF",
+            "dark": "#121212"
+        },
+        "myMessage": {
+            "light": "#469BFF",
+            "dark": "#6094D1"
+        },
+        "myMessageFont": {
+            "light": "#C0DDFF",
+            "dark": "#C0DDFF"
+        },
+        "otherMessage": {
+            "light": "#F8F8F8",
+            "dark": "#303030"
+        },
+        "chatReport": {
+            "light": "#E5E5E5",
+            "dark": "#999999"
+        },
+        "stroke": {
+            "light": "#E1E1E1",
+            "dark": "#404040"
+        },
+        "purpleGray": {
+            "light": "#C6C6C6",
+            "dark": "#999999"
+        },
+        "scrollBackground": {
+            "light": "#cccccc",
+            "dark": "#222222"
+        },
+        "scrollSlider": {
+            "light": "#999999",
+            "dark": "#606060"
+        },
+        "otherBackgroundSecondary": {
+            "light": "#0075ff",
+            "dark": "#121212"
+        },
+        "buttonContrast": {
+            "light": "#004dff",
+            "dark": "#303030"
+        },
+        "buttonContrastSecondary": {
+            "light": "#0035ff",
+            "dark": "#404040"
+        }
+    }
+}

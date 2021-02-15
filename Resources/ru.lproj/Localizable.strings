@@ -1,0 +1,20 @@
+/* 
+  Localizable.strings
+  ChatExample
+
+  Created by Sergey Matveev on 15.02.2021.
+  
+*/
+
+"article_chat_send_view_placeholder" = "Сообщение";
+"article_chat_reply_action_name" = "Ответить";
+"article_chat_remove_action_name" = "Удалить";
+"article_chat_complain_action_name" = "Пожаловаться";
+"article_chat_resend_action_name" = "Отправить снова";
+"article_chat_complain_action_cancel" = "Закрыть";
+"article_chat_unread_separator_title" = "Новые сообщения";
+"article_chat_activity_title" = "Обновление...";
+"article_chat_connecting_title" = "Соединение...";
+"article_chat_sending_title" = "Отправляется";
+"article_chat_error_title" = "Не отправлено";
+"article_chat_example_title" = "Тестовый экран";
