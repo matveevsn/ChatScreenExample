@@ -207,17 +207,13 @@ class ArticleChatListView: UIView {
             return key.row < indexPath.row
         })
 
-        self.calculateHeights(data: self.comments, width: self.bounds.width) { (heightsIndex) in
-            self.changeContentInsetTop(totalContentHeight: heightsIndex.values.reduce(0, +))
+        let heightsIndex = type(of: self).calculateHeightsIndex(data: self.comments, width: self.bounds.width)
+        changeContentInsetTop(totalContentHeight: heightsIndex.values.reduce(0, +))
+        self.tableView.deleteRows(at: [indexPath], with: .middle)
 
-            self.tableView.deleteRows(at: [indexPath], with: .middle)
-
-            DispatchQueue.main.async {
-                if let unreadedOriginsList = self.calculateUnreadedOrigins(unreadedIndexList: unreadedList) {
-                    self.unreadedOrigins = unreadedOriginsList
-                    self.scrollViewDidScroll(self.tableView)
-                }
-            }
+        if let unreadedOriginsList = self.calculateUnreadedOrigins(unreadedIndexList: unreadedList) {
+            self.unreadedOrigins = unreadedOriginsList
+            self.scrollViewDidScroll(self.tableView)
         }
     }
 
